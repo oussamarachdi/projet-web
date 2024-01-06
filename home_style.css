@@ -1,0 +1,25 @@
+ol li {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ol li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ol li:hover, a:hover{
+    color: #d67180;
+}
+
+.marquee {
+    display: flex;
+    margin: 50px auto 20px auto;
+    width: 90%;
+    background-color: #d67180;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}

@@ -1,0 +1,38 @@
+input{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+label{
+    align-items: center;
+}
+textarea{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.btn-submit{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.btn-submit:hover{
+    font-weight: bold;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+

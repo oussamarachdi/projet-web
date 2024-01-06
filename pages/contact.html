@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Galerie d'Art en Ligne</title>
+    <link rel="stylesheet" href="../global_style.css">
+    <link rel="stylesheet" href="../styles/contact_style.css" >
+    <!-- Méthode 2 CSS -->
+    <style>
+        section{
+            background-color: cadetblue;
+            border-radius: 20px;
+            object-fit:contain;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Galerie d'Art en Ligne</h2>
+        <nav>
+            <ul>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="categories.html">Catégories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="propos.html">À Propos</a></li>
+                    
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contactez-nous</h2>
+        <p>Utiliser le formulaire ci-dessous pour nous envoyer un message : </p>
+        
+        <form action="process-contact.php" method="post" onsubmit="handleSubmit(event)">
+            <table>
+                <tr>
+                    <th><label for="name">Nom : </label></th>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail : </label></th>
+                    <td><input type="email" id="email" name="email" required ></td>
+                </tr>
+                <tr>
+                    <th><label for="message">Message : </label></th>
+                    <td><textarea id="message" name="message" rows="10" required></textarea></td>
+                </tr>
+            </table> 
+        
+
+        <input type="submit" value="Envoyer" class="btn-submit">
+    </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Galerie d'Art en Ligne. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../scripts/contact_script.js" type="text/js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global_style.css">
+    <link rel="stylesheet" href="../styles/categorie_style.css" />
+    <title>Catégories - Galerie d'Art en Ligne</title>
+</head>
+<body>
+    <header>
+        <h1>Galerie d'Art en Ligne</h1>
+        <nav>
+            <ul>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="categories.html">Catégories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="propos.html">À Propos</a></li>
+                    
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <audio id="myAudio" autoplay loop muted>
+        <source src="../audio/audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="button-container">
+        <button id="button1" class="btn" onclick="muteAndUnmute()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
+                <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/>
+              </svg>
+        </button>
+        <button id="button2" class="btn" onclick="muteAndUnmute()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-up-fill" viewBox="0 0 16 16">
+                <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+                <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89z"/>
+                <path d="M8.707 11.182A4.486 4.486 0 0 0 10.025 8a4.486 4.486 0 0 0-1.318-3.182L8 5.525A3.489 3.489 0 0 1 9.025 8 3.49 3.49 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"/>
+              </svg>
+        </button>
+        
+    </div>
+    
+    <section id="peinture">
+        <h1>Peintures</h1>
+        <p>Découvez notre collection de peintures : </p>
+        
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/peinture1.jpg" alt="Peinture 1">
+                <p>La Nuit étoilée </p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/peinture2.jpg" alt="Peinture 2">
+                <p>Le Cri</p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/peinture3.jpg" alt="Peinture 2">
+                <p>Le Déjeuner sur l'herbe</p>
+            </a>
+        </div>
+    </section>
+    <span class="middle_line"></span>
+    <section id="sculpture">
+        <h1>Sculptures</h1>
+        <p>Découvez notre collection de Sculptures : </p>
+        
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/sculpture1.jpg" alt="Sculpture 1">
+                <p>Jean Arp</p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/sculpture2.jpg" alt="Sculpture 2">
+                <p>Michel-Ange </p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/sculpture3.jpg" alt="Sculpture 2">
+                <p>Donatello </p>
+            </a>
+        </div>
+    </section>
+    <span class="middle_line"></span>
+    <section id="photographie">
+        <h1>Photographies</h1>
+        <p>Découvez notre collection de Photographies : </p>
+        
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/photographie1.jpg" alt="Sculpture 1">
+                <p>The Decisive Momen</p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/photographie2.jpg" alt="Sculpture 2">
+                <p>The Americans</p>
+            </a>
+        </div>
+        <div class="artwork">
+            <a href="https://www.louvre.fr/" target="_blank">
+                <img src="../image/photographie3.jpg" alt="Sculpture 2">
+                <p>Day to Night</p>
+            </a>
+        </div>
+    </section>
+    <button id="backToTopBtn" onclick="scrollToTop()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+          </svg>
+    </button>
+    <footer>
+        <p>&copy; 2023 Galerie d'Art en Ligne. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../scripts/categories_script.js"></script>
+</body>
+</html>

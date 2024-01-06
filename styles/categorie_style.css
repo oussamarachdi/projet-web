@@ -1,0 +1,76 @@
+
+.artwork {
+    margin-bottom: 20px;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+    transition: 0.3s ease-in;
+}
+.artwork img:hover{
+    transform: scale(1.03);
+}
+.artwork p {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.artwork a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.middle_line{
+    display: block;
+    height: 2px;
+    width: 70%;
+    background-color: #333;
+    margin: 50px auto;
+}
+
+.button-container{
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.btn svg{
+    width: 32px;
+    height: 32px;
+}
+
+#button1{
+    display: block;
+}
+
+#button2{
+    display: none;
+}
+
+#backToTopBtn{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    border: none;
+    background: none;
+    
+    cursor: pointer;
+}
+#backToTopBtn svg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
