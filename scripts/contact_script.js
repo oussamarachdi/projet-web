@@ -1,5 +1,4 @@
-function handleSubmit(event){
-    event.preventDefault();
+function handleSubmit(){
     // Récupérer les valeurs du formulaire
     var name = document.getElementById("name").value;
     var name = document.getElementById("email").value;
@@ -16,3 +15,4 @@ function handleSubmit(event){
     document.getElementById("message").value = "";
     
 }
+
