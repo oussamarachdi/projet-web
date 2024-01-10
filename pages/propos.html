@@ -29,9 +29,22 @@
 
         <p>Nous collaborons avec des artistes talentueux du monde entier pour présenter des œuvres variées, allant de la peinture à la sculpture, de la photographie à l'art contemporain.</p>
     </section>
+    <article>
+        <h1>Our Users Comments:</h1>
 
+        <!-- Comment Form -->
+        <form id="commentForm">
+            <textarea type="text" id="comment" placeholder="Type your comment"></textarea>
+            <button type="button" onclick="addComment()">Submit</button>
+        </form>
+
+        <!-- Comment Section -->
+
+        <div id="commentSection"></div>
+    </article>
     <footer>
         <p>&copy; 2023 Galerie d'Art en Ligne. Tous droits réservés.</p>
     </footer>
+    <script src="../scripts/propos_script.js"></script>
 </body>
 </html>

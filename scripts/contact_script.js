@@ -1,7 +1,7 @@
 function handleSubmit(){
     // Récupérer les valeurs du formulaire
     var name = document.getElementById("name").value;
-    var name = document.getElementById("email").value;
+    var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     var x = prompt("Voulez-vous envoyer cette information, Tapez Oui/Non pour continuer : ");
     if(x.toLocaleLowerCase() == 'oui'){

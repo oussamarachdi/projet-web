@@ -39,7 +39,7 @@ nav li a:hover{
     border-bottom: 2px solid white;
 }
 
-section {
+section , article{
     max-width: 800px;
     margin: 0px auto 50px auto;
     padding: 20px;
